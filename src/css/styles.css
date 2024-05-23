@@ -1,25 +1,18 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* ==================================================
+Global variables
+================================================== */
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --black: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
+  --grey: rgba(252, 249, 249, 0.4);
+  box-sizing: border-box;
 }
 
+/* ==================================================
+Imports
+================================================== */
+@import url('./world_styles.css');
 @import url('./header.css');
 @import url('./section_1_hero.css');
 @import url('./section_2_about_us.css');
