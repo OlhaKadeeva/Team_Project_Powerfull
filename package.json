@@ -1,18 +1,18 @@
 {
-  "name": "Progect_Powerfull",
+  "name": "project_powerfull",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Progect_Powerfull/",
+    "build": "vite build --base=/project_powerfull/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.5.2",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "project-group-16_html+css-108>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
