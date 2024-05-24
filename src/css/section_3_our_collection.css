@@ -1,7 +1,35 @@
 .collection_container {
-  background-color: #1c2225;
+  padding-bottom: 80px;
+  padding-top: 18px;
 }
+
 .collection_title {
-  color: #fff;
+  color: #fcf9f9;
   text-align: center;
+  margin-bottom: 40px;
+}
+.collection_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.collection_img {
+  border-radius: 4px;
+  width: 335px;
+}
+.collection_subheader {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+.collection_price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: rgba(252, 249, 249, 0.4);
 }
