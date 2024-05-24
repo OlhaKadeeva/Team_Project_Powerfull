@@ -1,0 +1,143 @@
+.header_container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 84px;
+}
+
+@media screen and (min-width: 768px) {
+    .header_container {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header_container {
+        justify-content: space-between;
+    }
+}
+
+.header_nav {
+    display: flex;
+    flex: 1 0 25%;
+}
+
+@media screen and (min-width: 1280px) {
+    .header_nav {
+        align-items: center;
+    }
+}
+
+.logo_link {
+    display: flex;
+    align-items: center;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+}
+
+@media screen and (min-width: 1280px) {
+    .logo_link {
+        padding-right: 60px;
+    }
+}
+
+.header_nav_list {
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1280px) {
+    .header_nav_list {
+        display: flex;
+        gap: 25px;
+    }
+
+    .header_nav_link {
+        color: var(--white);
+    }
+
+    .header_nav_link:focus,
+    .header_nav_link:hover {
+        color: var(--yellow);
+    }
+}
+
+.header_link_list {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.header_item_link {
+    background: rgba(252, 249, 249, 0.1);
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.header_item_link:hover,
+.header_item_link:focus {
+    border-color: var(--yellow);
+    background-color: inherit;
+}
+
+
+.header_address {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    fill: var(--white);
+}
+
+.mob_menu_btn {
+    border: none;
+    background-color: inherit;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .mob_menu_btn {
+        display: none;
+    }
+}
+
+.mob_menu_icon {
+    stroke: var(--yellow);
+}
+
+.header_phone {
+    display: none;
+    background-color: inherit;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    width: 193px;
+    height: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+    .header_phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_phone:hover,
+    .header_phone:focus {
+        border-color: var(--yellow);
+    }
+
+    .header_tel {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.43;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+}
