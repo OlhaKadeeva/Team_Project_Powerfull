@@ -1,0 +1,84 @@
+/* ==================================================
+Reset styles
+================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+/* ==================================================
+Body styles
+================================================== */
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: var(--grey);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* ==================================================
+Containers
+================================================== */
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1340px;
+  }
+}
