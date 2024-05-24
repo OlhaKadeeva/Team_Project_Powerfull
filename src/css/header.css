@@ -55,12 +55,12 @@
     }
 
     .header_nav_link {
-        color: #fcf9f9;
+        color: var(--white);
     }
 
     .header_nav_link:focus,
     .header_nav_link:hover {
-        color: #ecd979;
+        color: var(--yellow);
     }
 }
 
@@ -82,7 +82,7 @@
 
 .header_item_link:hover,
 .header_item_link:focus {
-    border-color: #ecd979;
+    border-color: var(--yellow);
     background-color: inherit;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .icon {
-    fill: #fcf9f9;
+    fill: var(--white);
 }
 
 .mob_menu_btn {
@@ -110,7 +110,7 @@
 }
 
 .mob_menu_icon {
-    stroke: #ecd979;
+    stroke: var(--yellow);
 }
 
 .header_phone {
@@ -132,7 +132,7 @@
 
     .header_phone:hover,
     .header_phone:focus {
-        border-color: #ecd979;
+        border-color: var(--yellow);
     }
 
     .header_tel {
@@ -140,6 +140,6 @@
         font-size: 14px;
         line-height: 1.43;
         text-transform: uppercase;
-        color: #fcf9f9;
+        color: var(--white);
     }
 }
