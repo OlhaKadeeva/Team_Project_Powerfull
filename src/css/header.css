@@ -106,7 +106,6 @@
     .mob_menu_btn {
         display: none;
     }
-
 }
 
 .mob_menu_icon {
@@ -127,7 +126,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .header_phone:hover,
