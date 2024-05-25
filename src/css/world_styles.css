@@ -42,7 +42,6 @@ Global variables
   --white: #fcf9f9;
   --grey: rgba(252, 249, 249, 0.4);
   --dark_grey: rgba(252, 249, 249, 0.1);
-  box-sizing: border-box;
 }
 
 /* ==================================================
