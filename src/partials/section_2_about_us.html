@@ -23,12 +23,36 @@
       </ul>
     </div>
     <div class="about-us-photo">
-      <img
-        class="about-us-icon"
-        srcset="/img/about us/girl-and-boy-mob.jpg 1x, /img/about us/girl-and-boy-mob@2x.jpg 2x"
-        src="/img/about us/girl-and-boy-mob.jpg"
-        alt="Embroidered Shirt"
-      />
+      <picture>
+        <source
+          srcset="
+            /img/about_us/girl-and-boy-desk.jpg    1x,
+            /img/about_us/girl-and-boy-desk@2x.jpg 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            /img/about_us/girl-and-boy-tabl.jpg    1x,
+            /img/about_us/girl-and-boy-tabl@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/about_us/girl-and-boy-mob.jpg    1x,
+            /img/about_us/girl-and-boy-mob@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="about-us-icon"
+          src="/img/about_us/girl-and-boy-mob.jpg"
+          width=""
+          height=""
+          alt="Embroidered Shirt"
+        />
+      </picture>
     </div>
   </div>
 </section>
