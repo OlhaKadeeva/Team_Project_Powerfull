@@ -1,24 +1,24 @@
 .footer {
-    background-image: url();
-    background-position-x: ;
-    background-position-y: ;
+    background-image: url(#);
+    background-position-x: 50%;
+    background-position-y: 100%;
     background-repeat: no-repeat;
-    background-size: 174px;
+    background-size: 375px;
     box-sizing: border-box;
     display: block;
     font-family: Manrope, sans-serif;
     line-height: 18.4px;
-    height: 422.328px;
-    margin-bottom 0px;
+    height: 691.578px;
+    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 292px;
     text-size-adjust: 100%;
     tab-size: 4;
     unicode-bidi: isolate;
-    width: 810px;
+    width: 375px;
 }
 
 .footer_container {
@@ -29,24 +29,24 @@
     display: block;
     font-family: Manrope, sans-serif;
     line-height: 18.4px;
-    height: 332.328px;
+    height: 359.578px;
     padding-top: 40px;
     tab-size: 4;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    width: 810px;
+    width: 375px;
 }
 
 .footer_nav {
     box-sizing: border-box;
     display: inline-block;
     font-family: Manrope, sans-serif;
-    height: 98.5547px;
+    height: 102.109px;
     line-height: 18.4px;
     tab-size: 4;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    width: 474.852px;
+    width: 335px;
 }
 
 .footer_list list {
@@ -57,22 +57,22 @@
     flex-wrap: nowrap;
     font-family: Manrope, sans-serif;
     line-height: 18.4px;
-    height: 18.5547px;
+    height: 62.1094px;
     list-style-type: none;
-    margin-block-end: 80px;
+    margin-block-end: 40px;
     margin-block-start: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-top: 0px;
-    max-width: 768px;
+    max-width: 375px;
     padding-inline-start: 0px;
     padding-left: 0px;
     row-gap: 25px;
     tab-size: 4;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    width: 474.852px;
+    width: 335px;
 }
 
 .footer_item {
@@ -86,7 +86,7 @@
     text-align: left;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    width: 66.1797px;
+    width: 147.5px;
 }
 
 .footer_link link {
