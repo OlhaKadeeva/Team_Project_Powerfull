@@ -1,3 +1,6 @@
+body {
+  margin: 20px;
+}
 @import url('./world_styles.css');
 @import url('./header.css');
 @import url('./section_1_hero.css');
@@ -7,7 +10,3 @@
 @import url('./section_5_your_order.css');
 @import url('./section_6_testimonials.css');
 @import url('./footer.css');
-
-body {
-  margin: 20px;
-}
