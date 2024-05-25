@@ -34,6 +34,17 @@ button {
   border: none;
 }
 /* ==================================================
+Global variables
+================================================== */
+:root {
+  --black: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
+  --grey: rgba(252, 249, 249, 0.4);
+  box-sizing: border-box;
+}
+
+/* ==================================================
 Body styles
 ================================================== */
 body {
@@ -41,6 +52,7 @@ body {
   font-size: 16px;
   letter-spacing: -0.04em;
   color: var(--grey);
+  background-color: var(--black);
 }
 .visually-hidden {
   position: absolute;
