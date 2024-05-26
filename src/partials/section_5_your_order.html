@@ -1,4 +1,4 @@
-<section class="order">
+<section class="order" id="order">
   <div class="container order_container">
     <div class="order-informative">
       <h2 class="order-text">
@@ -12,6 +12,7 @@
           class="input-meaning"
           type="text"
           placeholder="Enter your full name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
           name="name"
         />
       </div>
@@ -32,8 +33,8 @@
         ></textarea>
       </div>
       <button class="button-order" type="submit">
-        Send<svg width="24" height="16">
-          <use href="/images"></use>
+        Send<svg class="arrow" width="24" height="16">
+          <use href="../img/your_order/symbol-defs.svg#icon-untitled"></use>
         </svg>
       </button>
     </form>
