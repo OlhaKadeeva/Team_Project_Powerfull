@@ -55,11 +55,39 @@
           </a>
         </li>
       </ul>
-      <button class="mob_menu_btn" type="button">
+      <button class="mob_menu_btn" type="button" data-menu-open>
         <svg class="mob_menu_icon" width="36" height="24">
           <use href="/img/header/icon.svg#icon-burger"></use>
         </svg>
       </button>
     </address>
+  </div>
+
+  <!-- ======= mobile menu ======= -->
+
+  <div class="menu is-open" data-menu>
+    <div class="menu_box">
+      <button type="button" class="menu_close_btn" data-menu-close>
+        <svg class="menu_close_icon" width="18" height="18">
+          <use href="./img/header/icon.svg#icon-close"></use>
+        </svg>
+      </button>
+      <button class="menu_phone" type="button">
+        <a href="tel:+380684439426" class="menu_tel">+380 (68) 443-94-26</a>
+      </button>
+      <ul class="menu_nav_list">
+        <li><a href="#" class="menu_nav_link">About us</a></li>
+        <li><a href="#" class="menu_nav_link">Our collection</a></li>
+        <li><a href="#" class="menu_nav_link">Customer order</a></li>
+        <li><a href="#" class="menu_nav_link">Testimonials</a></li>
+      </ul>
+      <div class="menu_background">
+        <img
+          src="./img/header/elements-grey.svg"
+          alt="background"
+          class="menu_background_img"
+        />
+      </div>
+    </div>
   </div>
 </header>
