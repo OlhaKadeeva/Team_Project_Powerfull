@@ -1,6 +1,7 @@
 .about_container {
   display: flex;
   flex-direction: column;
+  position: relative;
   gap: 50px;
 }
 
@@ -27,8 +28,19 @@
 
 .about-us-icon {
   border-radius: 4px;
-  max-width: 335px;
-  height: auto;
+}
+
+.about-us-background {
+  position: absolute;
+  bottom: -62px;
+  right: -229px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.about-us-background-img {
+  width: 459px;
+  height: 408px;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,6 +60,11 @@
   .about-us-icon {
     max-width: 704px;
   }
+
+  .about-us-background {
+    bottom: -50px;
+    right: -280px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -65,5 +82,10 @@
 
   .about-us-icon {
     max-width: 594px;
+  }
+
+  .about-us-background {
+    bottom: -80px;
+    right: -210px;
   }
 }
