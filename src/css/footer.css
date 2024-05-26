@@ -3,7 +3,7 @@ FOOTER
 ================================================== */
 
 .footer {
-    background-image: url(../img/footer/elements-yellow.svg);
+    background-image: url(/img/footer/background_yellow.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 0 437px;
