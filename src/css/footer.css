@@ -1,6 +1,7 @@
 /* ==================================================
 FOOTER
 ================================================== */
+
 .footer {
     background-image: url(../img/footer/elements-yellow.svg);
     background-repeat: no-repeat;
@@ -75,7 +76,6 @@ FOOTER
 .footer_title {
     width: 754px;
     height: 148px;
-    font-family: Manrope, sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 1.16;
@@ -85,7 +85,6 @@ FOOTER
 }
 
 .footer_title_text {
-    font-family: Manrope, sans-serif;
     color: var(--yellow);
 }
 
