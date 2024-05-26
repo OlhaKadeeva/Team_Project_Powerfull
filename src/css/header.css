@@ -154,7 +154,7 @@
     width: 274px;
     height: 100%;
     overflow-y: auto;
-    background: #ecd979;
+    background:var(--yellow);
     z-index: 9999;
     opacity: 0;
     visibility: hidden;
@@ -196,7 +196,7 @@
 
 .menu_close_icon {
     stroke-width: 2px;
-    stroke: #1c2225;
+    stroke: var(--black);
 }
 
 .menu_box {
@@ -235,7 +235,7 @@
     font-size: 12px;
     line-height: 1.17;
     text-transform: uppercase;
-    color: #1c2225;
+    color: var(--black);
 }
 
 .menu_nav_list {
@@ -256,7 +256,7 @@
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
-    color: #1c2225;
+    color: var(--black);
 }
 
 .menu_background {
@@ -273,6 +273,7 @@
 
 .menu_background_img {
     margin: 185px 0 0 -46px;
+
 
 }
 
