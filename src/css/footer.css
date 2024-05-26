@@ -1,17 +1,12 @@
 .footer {
-    background-image: url(/img/background.svg);
-    background-size: 375px;
-    background-position-x: 50%;
-    background-position-y: 100%;
-    background-repeat: no-repeat;
     box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 292px;
-    unicode-bidi: isolate;
-    width: 375px;
-    height: 691.578px;
+    position: absolute;
+    width: 1280px;
+    height: 363px;
+    left: calc(50% - 1280px/2);
+    top: 5119px;
+    border-top: 1px solid var(--white);
+    background-image: url(/img/background.svg);
 }
 
 .footer_container {
