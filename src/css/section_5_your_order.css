@@ -9,13 +9,15 @@
   font-size: 32px;
   line-height: 1.375;
   letter-spacing: -0.03em;
-  color: #fcf9f9;
+  color: var(--white);
   padding: 0 20px 40px 20px;
-  text-transform: uppercase;
+  text-transform: none;
   display: inline-block;
+  text-align: left;
+  font-family: 'Manrope', sans-serif;
 }
 .colorful-part-order {
-  color: #ecd979;
+  color: var(--yellow);
 }
 
 .input-meaning {
@@ -27,10 +29,10 @@
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.02em;
-  color: rgba(252, 249, 249, 0.5);
-  background-color: #1c2225;
+  color: var(--grey);
+  background-color: var(--black);
 
-  border: 1px solid rgba(252, 249, 249, 0.1);
+  border: 1px solid var(--dark_grey);
   border-radius: 15px;
   padding: 14px 16px;
   width: 335px;
@@ -44,7 +46,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 12px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
+  border: 1px solid var(--dark_grey);
   border-radius: 8px;
   padding: 14px 16px;
   width: 335px;
@@ -53,7 +55,7 @@
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.02em;
-  color: rgba(252, 249, 249, 0.5);
+  color: var(--grey);
   resize: none;
 }
 .button-order {
@@ -62,7 +64,7 @@
   justify-content: center;
   flex-direction: row;
   gap: 10px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
+  border: 1px solid var(--grey);
   border-radius: 15px;
   padding: 14px 36px;
   width: 145px;
@@ -71,10 +73,18 @@
   font-size: 14px;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #fcf9f9;
-  background-color: #1c2225;
+  color: var(--white);
+  background-color: var(--black);
   margin: 0 115px;
 }
+.arrow {
+  fill: var(--yellow);
+}
+.button-order:hover,
+.button-order:focus {
+  border: 1px solid var(--yellow);
+}
+
 @media screen and (min-width: 768px) {
   .order_container {
     max-width: 768px;
@@ -82,6 +92,14 @@
   .order-text {
     font-size: 44px;
     line-height: 1.31818;
+    width: 542px;
+    display: block;
+    text-align: left;
+  }
+  .button-order {
+    padding: 14px 39px;
+    width: 168px;
+    margin: 40px 20px;
   }
 }
 @media screen and (min-width: 1280px) {
