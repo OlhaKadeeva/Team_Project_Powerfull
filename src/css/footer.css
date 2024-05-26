@@ -1,6 +1,4 @@
-/* ==================================================
-FOOTER
-================================================== */
+/* ============ FOOTER ========== */
 
 .footer {
     background-image: url(/img/footer/background_yellow.png);
@@ -68,32 +66,45 @@ FOOTER
     }
 }
 
+.footer_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    color: var(--white);
+    transition: color 250ms ease-in-out;
+}
+
 .footer_link:hover,
 .footer_link:focus {
     color: var(--yellow);
 }
 
 .footer_title {
-    width: 754px;
-    height: 148px;
     font-weight: 400;
-    font-size: 64px;
-    line-height: 1.16;
+    font-size: 44px;
+    line-height: 1.23;
     letter-spacing: -0.03em;
     color: var(--white);
-    top: 175px;
+    width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer_title {
+        font-size: 54px;
+        line-height: 1.19;
+        width: 521px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer_title {
+        width: 754px;
+        font-size: 64px;
+        line-height: 1.16;
+    }
 }
 
 .footer_title_text {
     color: var(--yellow);
-}
-
-.footer_item {
-    width: calc((100% - 40px) / 2);
-}
-
-@media screen and (min-width: 768px) {
-    .footer-item {
-        width: auto;
-    }
 }
