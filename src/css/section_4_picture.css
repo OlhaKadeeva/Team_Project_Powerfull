@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover; 
     margin: 0 auto;
-    width: 375px;
+    max-width: 375px;
     height: 500px;
 }
 
@@ -18,7 +18,7 @@
 @media screen and (min-width: 768px) {
     .picture_container {
         background-image: url(/img/img_section_4_picture/section-4-tab@1x.jpg);
-        width: 768px;
+        max-width: 768px;
         height: 776px;
     }}
 
@@ -30,7 +30,7 @@
 @media screen and (min-width: 1158px) {
     .picture_container{
         background-image: url(/img/img_section_4_picture/section-4-desk@1x.jpg);
-        width: 1282px;
+        max-width: 1282px;
         height: 776px;
     }}
 
