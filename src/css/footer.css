@@ -4,7 +4,6 @@
     width: 1280px;
     height: 363px;
     left: calc(50% - 1280px/2);
-    top: 5119px;
     border-top: 1px solid var(--white);
     background-image: url(/img/background.svg);
 }
