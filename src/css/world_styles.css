@@ -41,11 +41,15 @@ Global variables
   --yellow: #ecd979;
   --white: #fcf9f9;
   --grey: rgba(252, 249, 249, 0.4);
+
 }
 
 /* ==================================================
 Body styles
 ================================================== */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
@@ -74,11 +78,17 @@ Containers
   padding-left: 20px;
   padding-right: 20px;
 }
+section {
+  padding-bottom: 80px;
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+  section {
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -86,6 +96,9 @@ Containers
     max-width: 1280px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+  section {
+    padding-bottom: 150px;
   }
 }
 @media screen and (min-width: 1440px) {
