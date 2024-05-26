@@ -15,24 +15,37 @@
     display: flex;
     flex-direction: row;
     column-gap: 26px;
-    width: calc((100% - 3* 26px));
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.testimonials-li {}
+.testimonials-li {
+    padding: 24px 0px 0px 0px;
+    max-width: 396px;
+    height: 288px;
+}
 
 .testimonials-img {
     border-radius: 100%;
     box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
     padding-bottom: 14px;
+    display: block;
+}
+
+.testimonials-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonials-div {
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     padding: 0px 18px 18px 18px;
-    max-width: 376px;
-    height: 285px;
-    align-items: flex-start
+    min-width: 396px;
+    height: 264px;
+
 }
 
 .testimonials-title-thre {
