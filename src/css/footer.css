@@ -21,9 +21,6 @@ FOOTER
   }
 }
 
-.footer_container {
-}
-
 .footer_nav {
   display: flex;
   flex-direction: row;
