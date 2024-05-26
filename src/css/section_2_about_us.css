@@ -1,3 +1,6 @@
+.about {
+  overflow: hidden;
+}
 .about_container {
   display: flex;
   flex-direction: column;
