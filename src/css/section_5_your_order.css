@@ -85,7 +85,9 @@
   border: 1px solid var(--yellow);
 }
 .input-meaning:hover,
-.input-meaning:focus {
+.input-meaning:focus,
+.comment-order:hover,
+.comment-order:focus {
   border: 1px solid var(--yellow);
 }
 
