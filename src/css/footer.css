@@ -1,6 +1,6 @@
 .footer {
     box-sizing: border-box;
-    position: absolute;
+    position: ;
     width: 1280px;
     height: 363px;
     left: calc(50% - 1280px/2);
@@ -16,7 +16,15 @@
 
 .footer_nav {
     display: flex;
-    flex: 1 0 25%;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    position: absolute;
+    width: 478px;
+    height: 18px;
+    left: 50px;
+    top: 40px;
 }
 
 .footer_list list {
