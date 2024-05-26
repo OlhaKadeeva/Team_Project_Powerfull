@@ -16,7 +16,7 @@
 }
 .hero_button {
   line-height: 0;
-  border: 1px solid var(--dark_grey);
+  border: 1px solid var(--grey);
   border-radius: 15px;
   padding: 14px 36px;
   width: 154px;
@@ -46,6 +46,10 @@
 }
 .icon_arrow_button {
   fill: var(--yellow);
+  transition: transform 300ms ease-in-out;
+}
+.hero_button:hover .icon_arrow_button {
+  transform: rotate(120deg);
 }
 .picture_hero {
   border-radius: 4px;
