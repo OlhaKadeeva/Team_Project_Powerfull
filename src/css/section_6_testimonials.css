@@ -25,7 +25,7 @@
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     padding: 0px 18px 18px 18px;
-    min-width: 396px;
+    max-width: 396px;
     height: 264px;
 }
 
@@ -60,7 +60,7 @@
     color: rgba(252, 249, 249, 0.4);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
 
     .testimonials {
         padding: 100px 0;
