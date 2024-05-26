@@ -1,3 +1,7 @@
+.pics {
+  display: none;
+}
+
 .order_container {
   max-width: 375px;
 }
@@ -35,10 +39,12 @@
   border: 1px solid var(--dark_grey);
   border-radius: 15px;
   padding: 14px 16px;
-  width: 335px;
+
+  width: 100%;
 }
 .form {
   margin: 20px;
+  width: 100%;
 }
 .comment-order {
   display: flex;
@@ -49,7 +55,7 @@
   border: 1px solid var(--dark_grey);
   border-radius: 8px;
   padding: 14px 16px;
-  width: 335px;
+  width: 100%;
   height: 196px;
   background-color: #1c2225;
   font-weight: 400;
@@ -89,6 +95,7 @@
   .order_container {
     max-width: 768px;
   }
+
   .order-text {
     font-size: 44px;
     line-height: 1.31818;
@@ -105,10 +112,40 @@
 @media screen and (min-width: 1280px) {
   .order_container {
     max-width: 1280px;
+
+    height: 640px;
+    background-image: url(/img/your_order/elements.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 325px 484px;
+  }
+  .pics {
+    padding-top: 139px;
+    padding-left: 86px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .order-informative {
+    display: flex;
+    align-items: center;
+
+    display: inline-block;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1440px) {
   .order_container {
     max-width: 1440px;
+
+    height: 640px;
+    background-image: url(/img/your_order/elements.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 325px 484px;
+  }
+  .pics {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
