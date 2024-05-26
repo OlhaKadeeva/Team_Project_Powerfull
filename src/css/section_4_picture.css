@@ -4,21 +4,21 @@
     background-position: center;
     background-size: cover; 
     margin: 0 auto;
-    min-width: 375px;
+    width: 375px;
     height: 500px;
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .picture_container{
         background-image: url(/img/img_section_4_picture/section-4-mob@2x.jpg);
-        min-width: 375px;
+        width: 375px;
         height: 500px;
     }}
 
 @media screen and (min-width: 768px) {
     .picture_container {
         background-image: url(/img/img_section_4_picture/section-4-tab@1x.jpg);
-        min-width: 768px;
+        width: 768px;
         height: 776px;
     }}
 
@@ -30,7 +30,7 @@
 @media screen and (min-width: 1158px) {
     .picture_container{
         background-image: url(/img/img_section_4_picture/section-4-desk@1x.jpg);
-        min-width: 1282px;
+        width: 1282px;
         height: 776px;
     }}
 
