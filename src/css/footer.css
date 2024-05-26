@@ -9,31 +9,14 @@
 }
 
 .footer_container {
-    border-top-color: var(--dark_grey);
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    display: block;
-    font-family: Manrope, sans-serif;
-    line-height: 18.4px;
-    height: 359.578px;
-    padding-top: 40px;
-    tab-size: 4;
-    text-size-adjust: 100%;
-    unicode-bidi: isolate;
-    width: 375px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 84px;
 }
 
 .footer_nav {
-    box-sizing: border-box;
-    display: inline-block;
-    font-family: Manrope, sans-serif;
-    height: 102.109px;
-    line-height: 18.4px;
-    tab-size: 4;
-    text-size-adjust: 100%;
-    unicode-bidi: isolate;
-    width: 335px;
+    display: flex;
+    flex: 1 0 25%;
 }
 
 .footer_list list {
