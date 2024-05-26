@@ -1,9 +1,9 @@
 .collection {
   position: relative;
-  /* background-image: url(../img/our_collection/element.png);
+  background-image: url(../img/our_collection/element.png);
   background-repeat: no-repeat;
   background-size: 199px 177px;
-  background-position: -40% 10%; */
+  background-position: -40% 10%;
 }
 .collection_background {
   position: absolute;
