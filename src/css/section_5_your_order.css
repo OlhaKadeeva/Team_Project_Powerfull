@@ -85,10 +85,15 @@
 }
 .arrow {
   fill: var(--yellow);
+  transition: transform 250ms ease-in-out;
 }
 .button-order:hover,
 .button-order:focus {
   border: 1px solid var(--yellow);
+}
+.button-order:hover .arrow,
+.button-order:focus .arrow {
+  transform: rotate(-60deg);
 }
 .input-meaning:hover,
 .input-meaning:focus,
