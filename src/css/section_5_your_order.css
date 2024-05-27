@@ -16,7 +16,7 @@
   line-height: 1.375;
   letter-spacing: -0.03em;
   color: var(--white);
-  padding: 0 20px 40px 20px;
+  margin-bottom: 20px;
   text-transform: none;
   display: inline-block;
   text-align: left;
@@ -42,7 +42,7 @@
   transition: 250ms ease-in-out;
 }
 .form {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .comment-order {
   display: flex;
