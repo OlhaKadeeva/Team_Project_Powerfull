@@ -71,7 +71,7 @@
   gap: 10px;
   border: 1px solid var(--grey);
   border-radius: 15px;
-  padding: 14px 36px;
+  padding: 14px;
   width: 145px;
   height: 49px;
   font-weight: 600;
@@ -80,8 +80,8 @@
   text-transform: uppercase;
   color: var(--white);
   background-color: inherit;
-  margin: 0 auto;
   transition: 250ms ease-in-out;
+  margin: 40px auto 0;
 }
 .arrow {
   fill: var(--yellow);
@@ -109,6 +109,9 @@
     z-index: -10;
     overflow: hidden;
   }
+  .order-informative {
+    margin-bottom: 100px;
+  }
   .form-input-order {
     width: 508px;
   }
@@ -122,7 +125,7 @@
   .button-order {
     padding: 14px 39px;
     width: 168px;
-    margin: 40px 20px;
+    margin: 40px 0 0;
   }
   .tradition_cloth {
     display: flex;
@@ -147,6 +150,9 @@
   .order-background {
     bottom: -15px;
     left: -256px;
+  }
+  .order-informative {
+    margin-bottom: 0;
   }
   .pics {
     display: block;
