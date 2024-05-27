@@ -1,10 +1,5 @@
 .collection {
   position: relative;
-
-  /* background-image: url(../img/our_collection/element.png);
-  background-repeat: no-repeat;
-  background-size: 199px 177px;
-  background-position: -40% 10%; */
 }
 .collection_background {
   position: absolute;
@@ -74,6 +69,8 @@
 .collection_img {
   border-radius: 4px;
   height: 430px;
+  width: auto;
+  object-fit: cover;
 }
 .collection_subheader {
   margin-top: 18px;
@@ -119,6 +116,10 @@
     width: calc((100% - 20px) / 3);
     max-width: 380px;
   }
+  .collection_img {
+    width: auto;
+    object-fit: cover;
+  }
 }
 @media screen and (min-width: 1440px) {
   .collection {
@@ -127,5 +128,9 @@
   .collection_item {
     width: calc((100% - 20px) / 3);
     max-width: 400px;
+  }
+  .collection_img {
+    width: auto;
+    object-fit: cover;
   }
 }
