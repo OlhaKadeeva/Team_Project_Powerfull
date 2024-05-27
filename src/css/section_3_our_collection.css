@@ -18,6 +18,8 @@
 }
 .collection_img {
   border-radius: 4px;
+  width: auto;
+  object-fit: cover;
   height: auto;
 }
 
@@ -67,10 +69,6 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .collection_img {
-  border-radius: 4px;
-  height: 430px;
-  width: auto;
-  object-fit: cover;
 }
 .collection_subheader {
   margin-top: 18px;
