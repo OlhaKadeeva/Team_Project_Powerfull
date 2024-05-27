@@ -52,6 +52,9 @@
   transform: translatey(0);
   opacity: 1;
 }
+.collection_card {
+  padding: 0 4px 4px;
+}
 .overlay {
   border-radius: 4px;
   opacity: 0;
