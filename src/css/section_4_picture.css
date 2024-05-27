@@ -119,6 +119,7 @@
 @media screen and (min-width: 1440px) {
   .picture_container {
     max-width: 1440px;
+    height: 776px;
   }
 
   .p-front {
@@ -132,11 +133,11 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .p-front {
-    background-image: url(../img/img_section_4_picture/section-4-desk1440@2x.jpg);
+    background-image: url(/img/img_section_4_picture/section-4-desk1440@2x.jpg);
   }
 
   .p_back {
-    background-image: url(../img/img_section_4_picture/section-4-kolos-desk@2x.jpg);
+    background-image: url(/img/img_section_4_picture/section-4-kolos-desk@2x.jpg);
   }
 }
 
