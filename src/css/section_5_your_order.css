@@ -5,7 +5,6 @@
   text-align: center;
 }
 .order-text {
-  /* max-width: 508px; */
   font-weight: 500;
   font-size: 32px;
   line-height: 1.375;
@@ -34,10 +33,10 @@
   border-radius: 15px;
   padding: 14px 16px;
   width: 100%;
+  transition: 250ms ease-in-out;
 }
 .form {
   margin: 20px;
-  /* width: 100%; */
 }
 .comment-order {
   display: flex;
@@ -56,6 +55,7 @@
   letter-spacing: -0.02em;
   color: var(--grey);
   resize: none;
+  transition: 250ms ease-in-out;
 }
 .button-order {
   display: flex;
@@ -109,6 +109,13 @@
     padding: 14px 39px;
     width: 168px;
     margin: 40px 20px;
+  }
+  .tradition_cloth {
+    display: flex;
+    justify-content: center;
+  }
+  .pics {
+    display: block;
   }
 }
 @media screen and (min-width: 1280px) {

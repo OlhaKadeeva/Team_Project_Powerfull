@@ -9,9 +9,6 @@
   width: 199px;
   height: 177;
 }
-.collection_svg {
-  fill: var(--your-color-variable, #ecd979);
-}
 .collection_container {
   position: relative;
   z-index: 2;
@@ -25,7 +22,11 @@
   height: auto;
 }
 .collection_title {
-  color: #fcf9f9;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  color: var(--white);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -98,6 +99,9 @@
     height: 300px;
     top: 11%;
     left: -30%;
+  }
+  .collection_title {
+    font-size: 44px;
   }
   .collection_item {
     width: 342px;
