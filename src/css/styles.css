@@ -1,17 +1,3 @@
-/* ==================================================
-Global variables
-================================================== */
-:root {
-  --black: #1c2225;
-  --yellow: #ecd979;
-  --white: #fcf9f9;
-  --grey: rgba(252, 249, 249, 0.4);
-  box-sizing: border-box;
-}
-
-/* ==================================================
-Imports
-================================================== */
 @import url('./world_styles.css');
 @import url('./header.css');
 @import url('./section_1_hero.css');
