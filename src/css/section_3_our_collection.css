@@ -103,10 +103,11 @@
   }
   .collection_item {
     width: 342px;
-    height: 492px;
+    height: auto;
   }
   .collection_subheader {
     font-size: 18px;
+    text-wrap: nowrap;
   }
   .collection_price {
     font-size: 18px;
