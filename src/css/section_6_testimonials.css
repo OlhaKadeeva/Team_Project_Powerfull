@@ -48,7 +48,7 @@
   color: rgba(252, 249, 249, 0.4);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .testimonials-ul {
     gap: 32px;
   }
