@@ -1,3 +1,62 @@
-<section class="order">
-  <div class="container order_container"></div>
+<section class="order" id="order">
+  <div class="container order_container">
+    <div class="order-informative">
+      <h2 class="order-text">
+        <span class="colorful-part-order">Your order </span>is our priority:
+        Personalized approach and quality of service
+      </h2>
+      <form class="form-input-order">
+        <div class="form">
+          <input
+            class="input-meaning"
+            type="text"
+            placeholder="Enter your full name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            name="name"
+          />
+        </div>
+        <div class="form">
+          <input
+            class="input-meaning"
+            type="text"
+            placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            name="mail"
+          />
+        </div>
+
+        <div class="form">
+          <textarea
+            class="comment-order"
+            name="user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </div>
+        <button class="button-order" type="submit">
+          Send<svg class="arrow" width="24" height="16">
+            <use href="/img/your_order/symbol-defs.svg#icon-untitled"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="tradition_cloth">
+      <picture class="pics"
+        ><source
+          media="(min-width: 1280px)"
+          srcset="
+        /img/your_order/ur-order-d1440-min.jpg 1px,
+        /img/your_order/ur-order-d1440@2x-min.jpg 2px"
+        />
+        <img
+          srcset="
+        /img/your_order/ur-order-d1440c-min.jpg 1px,
+        /img/your_order/ur-order-d1440c@2x-min.jpg 2px"
+          src="/img/your_order/ur-order-d1440c-min.jpg"
+          alt="Pretty woman with traditional cloth on"
+          width="524"
+          height="521"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
