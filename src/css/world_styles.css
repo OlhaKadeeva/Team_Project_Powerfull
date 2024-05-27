@@ -22,6 +22,7 @@ a {
   color: inherit;
   text-decoration: none;
   display: block;
+  outline: none;
 }
 img {
   display: block;
@@ -32,15 +33,34 @@ button {
   cursor: pointer;
   display: block;
   border: none;
+  outline: none;
 }
+input,
+textarea {
+  outline: none;
+}
+/* ==================================================
+Global variables
+================================================== */
+:root {
+  --black: #1c2225;
+  --yellow: #ecd979;
+  --white: #fcf9f9;
+  --grey: rgba(252, 249, 249, 0.4);
+}
+
 /* ==================================================
 Body styles
 ================================================== */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
   letter-spacing: -0.04em;
   color: var(--grey);
+  background-color: var(--black);
 }
 .visually-hidden {
   position: absolute;
@@ -63,11 +83,17 @@ Containers
   padding-left: 20px;
   padding-right: 20px;
 }
+section {
+  padding-bottom: 80px;
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+  section {
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -75,6 +101,9 @@ Containers
     max-width: 1280px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+  section {
+    padding-bottom: 150px;
   }
 }
 @media screen and (min-width: 1440px) {

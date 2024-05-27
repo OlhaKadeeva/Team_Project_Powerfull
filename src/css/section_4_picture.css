@@ -1,3 +1,4 @@
+
 .picture_container { 
     /* background-image: url(/img/img_section_4_picture/section-4-mob@1x.jpg); */
     background-repeat: no-repeat;
@@ -7,6 +8,7 @@
     max-width: 375px;
     height: 500px;
     overflow: hidden;
+
 }
 .p_front {
   background-image: url(/img/img_section_4_picture/section-4-mob@1x.jpg);
@@ -133,3 +135,4 @@
     background-image: url(../img/img_section_4_picture/section-4-kolos-desk@2x.jpg)
   }
 }
+
