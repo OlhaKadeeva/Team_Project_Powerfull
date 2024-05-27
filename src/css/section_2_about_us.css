@@ -17,16 +17,14 @@
   color: var(--white);
 }
 
-.about-us-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .about-us-item {
   font-size: 14px;
   color: var(--grey);
   line-height: 1.5;
+}
+
+.about-us-item:not(:last-child) {
+  padding-bottom: 20px;
 }
 
 .about-us-icon {
@@ -38,7 +36,6 @@
   bottom: -62px;
   right: -229px;
   z-index: 0;
-  overflow: hidden;
 }
 
 .about-us-background-img {
@@ -72,14 +69,11 @@
 
 @media screen and (min-width: 1280px) {
   .about_container {
-    display: flex;
     flex-direction: inherit;
-    justify-content: center;
     align-items: center;
   }
 
   .about-us-txt-container {
-    width: 536px;
     margin-right: 50px;
   }
 
