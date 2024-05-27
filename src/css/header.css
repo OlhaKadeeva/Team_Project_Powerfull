@@ -1,7 +1,9 @@
 .header_container {
+  position: relative;
   display: flex;
   margin-top: 20px;
-  padding-bottom: 84px;
+  margin-bottom: 84px;
+  overflow: visible;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,7 +14,7 @@
 
 .header_nav {
   display: flex;
-  gap: 60px
+  gap: 60px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -50,12 +52,8 @@
 .header_nav_link:hover {
   color: var(--yellow);
 }
-
-.header_address {
-  margin-left: auto;
-}
-
 .header_phone {
+  margin-left: auto;
   display: none;
   font-style: normal;
   background-color: inherit;
@@ -72,19 +70,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .header_phone:hover,
-  .header_phone:focus {
-    border-color: var(--yellow);
-  }
-
-  .header_tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.43;
     text-transform: uppercase;
     color: var(--white);
+  }
+
+  .header_phone:hover,
+  .header_phone:focus {
+    border-color: var(--yellow);
   }
 }
 
@@ -92,10 +87,10 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-left: 20px;
+  margin-left: auto;
 }
 
-.header_item_link {
+.social_link_header {
   background: rgba(252, 249, 249, 0.1);
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
@@ -105,8 +100,8 @@
   transition: border-color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 
-.header_item_link:hover,
-.header_item_link:focus {
+.social_link_header:hover,
+.social_link_header:focus {
   border-color: var(--yellow);
   background-color: inherit;
 }
@@ -146,41 +141,45 @@
   display: none;
 }
 
-  @media screen and (min-width: 768px) {
-    .mob_menu_icon {
-      display: none;
-    }
-    .tab_menu_icon {
-      display: flex;
-    }
+@media screen and (min-width: 768px) {
+  .mob_menu_icon {
+    display: none;
   }
+  .tab_menu_icon {
+    display: flex;
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .mob_menu_btn .tab_menu_icon {
     display: none;
+  }
+  .header_link_list {
+    margin-left: 20px;
   }
 }
 
 /* ========== MOBILE MENU ========== */
 
 .menu {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: -20px;
   right: 0;
   width: 274px;
-  height: 100%;
-  overflow-y: auto;
+  height: 100vh;
+  overflow: auto;
   background: var(--yellow);
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
   transform-origin: right top;
   transform: scaleX(0);
-  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out, visibility 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, opacity 500ms ease-in-out,
+    visibility 500ms ease-in-out;
 
   background-image: url(../img/header/elements-grey.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center 70vh;
   background-size: 340px 302px;
 }
 
@@ -188,7 +187,6 @@
   .menu {
     width: 380px;
     background-size: 545px 484px;
-    background-position: -27px bottom;
   }
 }
 
@@ -224,38 +222,42 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 21px;
-  right: 0px;
+  top: 23px;
+  right: 20px;
   padding: 0;
   background-color: inherit;
-  border: none;
   cursor: pointer;
   line-height: 0;
   width: 36px;
   height: 36px;
+  &:hover,
+  &:focus {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .menu_close_btn {
     top: 32px;
-    right: 7px;
+    right: 22px;
     width: 44px;
     height: 44px;
   }
 }
 
 .mobile_close_icon {
+  display: block;
   stroke-width: 2px;
   stroke: var(--black);
+  width: 18px;
+  height: 18px;
 }
 
 @media screen and (min-width: 768px) {
   .mobile_close_icon {
-    display: none;
-  }
-  .tablet_close_icon {
-    stroke-width: 3px;
-    stroke: var(--black);
+    width: 22px;
+    height: 22px;
   }
 }
 
@@ -265,7 +267,6 @@
   background: inherit;
   width: 158px;
   height: 38px;
-  margin-bottom: auto;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -273,6 +274,10 @@
   color: var(--black);
   text-align: center;
   padding: 12px 0;
+  &:hover,
+  &:focus {
+    border: 2px solid var(--white);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -285,11 +290,11 @@
 }
 
 .menu_nav_list {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 20px;
-  margin-bottom: auto;
+  margin-top: 186px;
 }
 
 @media screen and (min-width: 768px) {
@@ -304,4 +309,9 @@
   line-height: 1.29;
   text-transform: uppercase;
   color: var(--black);
+  &:hover,
+  &:focus {
+    text-decoration: underline 3px solid var(--white);
+    text-underline-offset: 6px;
+  }
 }
