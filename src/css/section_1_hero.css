@@ -1,6 +1,9 @@
 .hero_container {
   position: relative;
 }
+.title_button_box {
+  margin-bottom: 40px;
+}
 .hero_title {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
@@ -14,11 +17,6 @@
 .word_title {
   color: var(--yellow);
 }
-.link_button {
-  display: block;
-  margin-left: 70px;
-  margin-bottom: 40px;
-}
 .hero_button {
   line-height: 0;
   border: 1px solid var(--grey);
@@ -28,6 +26,7 @@
   height: 49px;
   background-color: transparent;
   cursor: pointer;
+  margin-left: 70px;
 
   display: flex;
   align-items: center;
@@ -45,12 +44,16 @@
 .hero_button:hover,
 .hero_button:focus {
   border: 1px solid var(--yellow);
+  outline: none;
 }
 .icon_arrow_button {
   fill: var(--yellow);
   transition: transform 300ms ease-in-out;
 }
 .hero_button:hover .icon_arrow_button {
+  transform: rotate(120deg);
+}
+.hero_button:focus .icon_arrow_button {
   transform: rotate(120deg);
 }
 .picture_hero {
@@ -79,15 +82,12 @@
     max-width: 549px;
     margin-bottom: 40px;
   }
-  .link_button {
-    margin-left: 141px;
-    margin-bottom: 46px;
-  }
   .hero_button {
     font-size: 16px;
     padding: 14px 39px;
     width: 168px;
     height: 50px;
+    margin-left: 141px;
   }
   .picture_hero {
     margin: 0;
@@ -133,5 +133,8 @@
     font-size: 64px;
     max-width: 632px;
     line-height: 1.16;
+  }
+  .title_button_box {
+    margin-bottom: 0;
   }
 }
