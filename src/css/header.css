@@ -183,8 +183,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 21px;
+  right: 0px;
   padding: 0;
   background-color: inherit;
   border: none;
@@ -194,9 +194,26 @@
   height: 36px;
 }
 
-.menu_close_icon {
+@media screen and (min-width: 768px) {
+  .menu_close_btn {
+    top: 32px;
+    right: 7px;
+    width: 44px;
+    height: 44px;
+  }
+}
+.mobile_close_icon {
   stroke-width: 2px;
   stroke: var(--black);
+}
+@media screen and (min-width: 768px) {
+  .mobile_close_icon {
+    display: none;
+  }
+  .tablet_close_icon {
+    stroke-width: 3px;
+    stroke: var(--black);
+  }
 }
 
 .menu_box {
@@ -222,15 +239,6 @@
   width: 158px;
   height: 38px;
   margin-bottom: 186px;
-}
-
-@media screen and (min-width: 768px) {
-  .menu_phone {
-    margin-bottom: 223px;
-  }
-}
-
-.menu_tel {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -238,6 +246,16 @@
   color: var(--black);
   text-align: center;
   padding: 12px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_phone {
+    width: 193px;
+    height: 48px;
+    margin-bottom: 223px;
+    font-size: 14px;
+    line-height: 1.43;
+  }
 }
 
 .menu_nav_list {
