@@ -82,11 +82,11 @@
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .p-front {
+  .p_front {
     background-image: url(/img/img_section_4_picture/section-4-tab@2x.jpg);
   }
 
-  .p-back {
+  .p_back {
     background-image: url(/img/img_section_4_picture/section-4-brasl-tab@2x.jpg);
   }
 }
@@ -97,7 +97,7 @@
     height: 776px;
   }
 
-  .p-front {
+  .p_front {
     background-image: url(/img/img_section_4_picture/section-4-desk@1x.jpg);
   }
 
@@ -107,11 +107,11 @@
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-  .p-front {
+  .p_front {
     background-image: url(/img/img_section_4_picture/section-4-desk@2x.jpg);
   }
 
-  .p-back {
+  .p_back {
     background-image: url(/img/img_section_4_picture/section-4-kolos-desk@2x.jpg);
   }
 }
@@ -122,17 +122,17 @@
     height: 776px;
   }
 
-  .p-front {
+  .p_front {
     background-image: url(/img/img_section_4_picture/section-4-desk1440.jpg);
   }
 
-  .p-back {
+  .p_back {
     background-image: url(/img/img_section_4_picture/section-4-kolos-desk.jpg);
   }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .p-front {
+  .p_front {
     background-image: url(/img/img_section_4_picture/section-4-desk1440@2x.jpg);
   }
 
