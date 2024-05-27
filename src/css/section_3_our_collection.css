@@ -1,16 +1,13 @@
 .collection {
   position: relative;
-
-  /* background-image: url(../img/our_collection/element.png);
-  background-repeat: no-repeat;
-  background-size: 199px 177px;
-  background-position: -40% 10%; */
 }
-.collection_background {
+.collection-background {
   position: absolute;
-  top: 10%;
-  left: -40%;
-  z-index: 1;
+  top: 9%;
+  left: -34%;
+  z-index: -10;
+  width: 199px;
+  height: 177;
 }
 .collection_svg {
   fill: var(--your-color-variable, #ecd979);
@@ -25,7 +22,6 @@
   border-radius: 4px;
   height: auto;
 }
-
 .collection_title {
   color: #fcf9f9;
   text-align: center;
@@ -73,7 +69,6 @@
 }
 .collection_img {
   border-radius: 4px;
-  height: 430px;
 }
 .collection_subheader {
   margin-top: 18px;
@@ -84,7 +79,6 @@
   line-height: 1;
   text-transform: uppercase;
   color: #fcf9f9;
-  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -100,6 +94,12 @@
     background-size: 338px 300px;
     background-position: -40% 13%;
   }
+  .collection-background {
+    width: 338px;
+    height: 300px;
+    top: 11%;
+    left: -30%;
+  }
   .collection_item {
     width: 342px;
     height: 492px;
@@ -114,6 +114,10 @@
 @media screen and (min-width: 1280px) {
   .collection {
     background-position: 0% 23%;
+  }
+  .collection-background {
+    top: 18%;
+    left: -16%;
   }
   .collection_item {
     width: calc((100% - 20px) / 3);
