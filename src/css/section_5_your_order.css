@@ -1,3 +1,9 @@
+.order_container {
+  position: relative;
+}
+.order-background {
+  display: none;
+}
 .pics {
   display: none;
 }
@@ -95,6 +101,14 @@
   .order_container {
     max-width: 768px;
   }
+  .order-background {
+    display: block;
+    position: absolute;
+    bottom: -59px;
+    left: -219px;
+    z-index: -10;
+    overflow: hidden;
+  }
   .form-input-order {
     width: 508px;
   }
@@ -129,10 +143,10 @@
     justify-content: flex-end;
     gap: 50px;
     height: 640px;
-    background-image: url(/img/your_order/elements.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 325px 484px;
+  }
+  .order-background {
+    bottom: -15px;
+    left: -256px;
   }
   .pics {
     display: block;
