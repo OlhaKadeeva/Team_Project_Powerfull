@@ -9,6 +9,7 @@
 .picture_container {
   position: relative;
   margin: 0 auto;
+  height: 500px;
 
   >.p_front,
   >.p_back {
