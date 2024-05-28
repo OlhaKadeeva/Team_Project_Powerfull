@@ -101,6 +101,11 @@
 .comment-order:focus {
   border: 1px solid var(--yellow);
 }
+.input-meaning:focus:invalid {
+  border: none;
+  outline: 1px solid red;
+  border-radius: 5px;
+}
 
 @media screen and (min-width: 768px) {
   .order_container {
